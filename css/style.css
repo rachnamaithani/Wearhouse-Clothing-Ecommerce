@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+/*header section*/
+.header,.foot-email{
+    background-color: rgb(255, 230, 230);
+}
+
+/*nav bar */
+.main_menu_list:hover .program_list{
+	display: block;
+	cursor: pointer;
+	position: absolute;
+	z-index: 999;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.program_list{
+	display: none;
+	padding: 10px;
+	line-height:30px;
+	margin-top: 5px;
+	font-family: sans-serif; 
+	font-size: 15px;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+ul{
+	list-style-type: none;
+}
+.linkitem:hover{
+	color: red !important;
+}
+.navcol{
+	line-height: 45px;
+}
+
+/*section-1 banner slider*/
+.slideimg1{
+	background-image:url(../images/banner11.jpg);
+}
+.slideimg2{
+	background-image:url(../images/banner12.jpg);
+}
+.slideimg3{
+	background-image:url(../images/banner13.jpg);
+}
+
+/*section-2 categories*/
+.category-img{
+    border-radius:50%;
+    display:inline-block;
+}
+
+/*testimonial section */
+.card_container{
+	height: 310px;
+    border-radius:5%;
+	box-shadow: 1px 1px 30px #d8dcd5 ;
+}
+.card_para{
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	font-size: 14px;
+	margin: 15px;
+	color: grey;
+}
+.photo_container{
+	height: 60px;
+	position:relative;
+	margin:5px;
+	}
+.user-location{
+    position: absolute;
+    top: 35px;
+    left: 72px;
+    color: #abb8c3;
+    font-size: 14px;
+    }
+.user_photo{
+    border-radius: 50%;
+} 
+.user_name{
+	font-size: 18px;
+	font-weight: 660;
+	position: absolute;
+	top: 10px;
+	left: 70px;
+}
+
+/*footer */
+.foot-brand{
+	position:absolute;
+	top:60px;
+	left:105px;
+}
+input{
+	border: none;
+    border-bottom: 2px solid black;
+	
+}
+.foot-text a p{
+	font-size: 15px;
+	font-weight: 500;
+}
+
+/*slick slider next and previous btn*/
+.slick-next{
+	background-color:#c4c4c4 !important;
+	right: 10px !important;
+	
+}
+.slick-prev{
+	background-color: #c4c4c4 !important;
+	left: 10px !important;
+}
+/*view_product_details css*/
+.flex-box{
+	width:1200px;
+	margin: 20px auto;
+}
+
+.big-img{
+	width:450px;
+}
+.big-img img{
+	width: inherit;
+}
+.small-img{
+	overflow: hidden;
+	width: 100px;
+}
+.small-img img{
+	width:inherit;
+	cursor:pointer;
+	transition:all 0.3s ease;
+}
+.small-img:hover img{
+	transform: scale(1.2);
+}
+.url{
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(227, 0, 121);
+}
+.productsize{
+	border: 1px solid black;
+	margin: 0  5px;
+}
+.btn-check:checked+.btn{
+	background-color:rgb(255, 41, 155);
+	color: white;
+}
+.quantity input{
+	width: 50px !important;
+}
+.addtocart:hover{
+	background-color: rgb(123, 91, 32);
+}
+#getintouch{
+	background-image: url(../images/bground.jpg);
+	height: 505px;
+}
